@@ -19,7 +19,7 @@ jobs:
 
       - name: Run OWASP ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.11.0
-        with:
+        with: // The target URL for the scan
           target: "http://54.85.117.38/"
           fail_action: false
           allow_issue_writing: false
