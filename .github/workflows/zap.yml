@@ -22,3 +22,8 @@ jobs:
         with:
           target: "http://34.228.198.119/"
           fail_action: false
+
+with:
+  target: "http://34.228.198.119/"
+  fail_action: false
+  allow_issue_writing: false
