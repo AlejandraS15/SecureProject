@@ -24,4 +24,3 @@ jobs:
           target: "http://34.228.198.119/"
           fail_action: false
           work_dir: zap-work
-``
